@@ -140,17 +140,16 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 100px 350px;
-    
-  
+     
 }
 
 .quote {
     font-size: 36px;
     color: #5c4033;
     font-style: italic;
-    margin: 0 100px;
     display: flex;
-    
+    align-self: center;
+
 }
 
 .reference {
@@ -158,7 +157,7 @@ button {
     color: #5c4033;
     font-weight: 900;
     display: flex;
-
+    align-self: flex-end;
     
 }
 
@@ -180,9 +179,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 100px 0;
-  
-  
+    margin: 100px 0; 
    
 }
 
@@ -190,7 +187,6 @@ button {
     color: #5c4033;
     padding: 10px 5px;
     margin-left: 50px;
-    
    
 }
 
